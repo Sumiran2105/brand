@@ -1,0 +1,65 @@
+.about {
+  padding: 4rem 6vw 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3.5rem;
+  color: #2f2b26;
+}
+
+.about-hero h1 {
+  font-family: "Fraunces", "Georgia", serif;
+  font-size: clamp(2.2rem, 2.8vw + 1rem, 3.6rem);
+  margin: 1rem 0;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+}
+
+.about-card {
+  background: #ffffff;
+  padding: 1.8rem;
+  border-radius: 1.5rem;
+  border: 1px solid #efe6db;
+  box-shadow: 0 18px 32px rgba(47, 43, 38, 0.08);
+}
+
+.about-card h3 {
+  margin-top: 0;
+}
+
+.about-highlight {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
+  gap: 2.5rem;
+  align-items: center;
+  background: #fdfbf8;
+  padding: 2.5rem;
+  border-radius: 2rem;
+  border: 1px solid #efe6db;
+}
+
+.about-highlight h2 {
+  font-family: "Fraunces", "Georgia", serif;
+  font-size: clamp(1.8rem, 2vw + 0.9rem, 2.6rem);
+}
+
+.about-stats {
+  display: grid;
+  gap: 1rem;
+}
+
+.about-stats div {
+  background: #ffffff;
+  padding: 1.2rem 1.4rem;
+  border-radius: 1.2rem;
+  border: 1px solid #efe6db;
+}
+
+@media (max-width: 900px) {
+  .about-highlight {
+    grid-template-columns: 1fr;
+  }
+}

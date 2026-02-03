@@ -1,0 +1,92 @@
+.auth {
+  padding: 4rem 6vw 5rem;
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+  gap: 3rem;
+  color: #2f2b26;
+}
+
+.auth-card {
+  background: #ffffff;
+  padding: 2.5rem;
+  border-radius: 2rem;
+  border: 1px solid #efe6db;
+  box-shadow: 0 20px 40px rgba(47, 43, 38, 0.08);
+}
+
+.auth-header h1 {
+  font-family: "Fraunces", "Georgia", serif;
+  font-size: clamp(2rem, 2.4vw + 1rem, 3rem);
+  margin: 1rem 0 0.8rem;
+}
+
+.auth-form {
+  margin-top: 2rem;
+  display: grid;
+  gap: 1.2rem;
+}
+
+.auth-form label {
+  display: grid;
+  gap: 0.5rem;
+  font-weight: 600;
+  color: #4a433b;
+}
+
+.auth-form input {
+  border-radius: 0.9rem;
+  border: 1px solid #d8cdbf;
+  padding: 0.8rem 1rem;
+  font-size: 0.95rem;
+}
+
+.auth-check {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-weight: 500;
+}
+
+.auth-check input {
+  width: 1rem;
+  height: 1rem;
+}
+
+.auth-footnote {
+  margin-top: 1.5rem;
+  color: #7c7164;
+}
+
+.auth-footnote a {
+  color: #2f2b26;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.auth-aside {
+  background: #2f2b26;
+  color: #f7f4ef;
+  padding: 2.5rem;
+  border-radius: 2rem;
+  display: grid;
+  align-content: center;
+}
+
+.auth-aside h2 {
+  font-family: "Fraunces", "Georgia", serif;
+  margin-top: 0;
+}
+
+.auth-aside ul {
+  margin: 1rem 0 0;
+  padding-left: 1.2rem;
+  display: grid;
+  gap: 0.6rem;
+  color: #d9cec1;
+}
+
+@media (max-width: 900px) {
+  .auth {
+    grid-template-columns: 1fr;
+  }
+}
