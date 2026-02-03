@@ -5,12 +5,16 @@ import "./Navbar.css";
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <div className="navbar-logo">Thread & Needle</div>
+      <div className="navbar-left">
+        <span className="navbar-menu" aria-hidden="true">
+          ☰
+        </span>
+        <NavLink to="/" className="navbar-logo">
+          Thread & Needle
+        </NavLink>
+      </div>
 
       <div className="navbar-links">
-        <NavLink to="/" className={({ isActive }) => (isActive ? "active" : "")}>
-          Home
-        </NavLink>
         <NavLink to="/about" className={({ isActive }) => (isActive ? "active" : "")}>
           About
         </NavLink>
@@ -20,10 +24,10 @@ const Navbar = () => {
         <NavLink to="/signin" className={({ isActive }) => (isActive ? "active" : "")}>
           Sign in
         </NavLink>
+        <NavLink to="/signup" className="navbar-cta">
+          Sign up
+        </NavLink>
       </div>
-      <NavLink className="navbar-cta" to="/signup">
-        Join the club
-      </NavLink>
     </nav>
   );
 };

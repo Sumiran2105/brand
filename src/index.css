@@ -1,8 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@300;500;600;700&family=Manrope:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Work+Sans:wght@300;400;500;600&display=swap");
 
 :root {
   --ink: #2f2b26;
-  --sand: #f7f4ef;
+  --sand: #0b0b0b;
 }
 
 * {
@@ -11,7 +11,7 @@
 
 body {
   margin: 0;
-  font-family: "Manrope", "Segoe UI", sans-serif;
+  font-family: "Work Sans", "Segoe UI", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: var(--sand);
@@ -39,12 +39,13 @@ input {
 
 .btn {
   border-radius: 999px;
-  padding: 0.85rem 1.8rem;
-  font-size: 0.95rem;
+  padding: 0.75rem 1.6rem;
+  font-size: 0.9rem;
   font-weight: 600;
-  border: 1px solid transparent;
+  border: 1px solid #1f1b16;
   cursor: pointer;
-  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+  background: transparent;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .btn:hover {
@@ -53,12 +54,12 @@ input {
 }
 
 .btn-primary {
-  background: #2f2b26;
+  background: #1f1b16;
   color: #f7f4ef;
 }
 
 .btn-ghost {
   background: transparent;
-  border-color: #c8bdae;
-  color: #2f2b26;
+  border-color: #1f1b16;
+  color: #1f1b16;
 }
