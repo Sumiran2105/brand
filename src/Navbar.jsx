@@ -6,11 +6,15 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-left">
-        <span className="navbar-menu" aria-hidden="true">
-          ☰
-        </span>
+        {/* Logo */}
+        <img
+          src="/image.png"
+          alt="Logo"
+          className="navbar-logo-img"
+        />
+
         <NavLink to="/" className="navbar-logo">
-          Thread & Needle
+          JRSA
         </NavLink>
       </div>
 
