@@ -3,63 +3,209 @@
   display: flex;
   flex-direction: column;
   gap: 3.5rem;
-  color: #2f2b26;
+  color: #1a1a1a;
+  background: #fafaf9;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #d4af37;
+  margin: 0 0 1rem 0;
+}
+
+.about-hero {
+  max-width: 900px;
 }
 
 .about-hero h1 {
   font-family: "Fraunces", "Georgia", serif;
-  font-size: clamp(2.2rem, 2.8vw + 1rem, 3.6rem);
-  margin: 1rem 0;
+  font-size: clamp(2.4rem, 3vw + 1rem, 4rem);
+  margin: 0.5rem 0 1.5rem 0;
+  color: #000000;
+  font-weight: 700;
+}
+
+.about-hero .lead {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #404040;
+  max-width: 800px;
+}
+
+.about-mission {
+  background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+  padding: 3.5rem;
+  border-radius: 2rem;
+  color: #ffffff;
+}
+
+.mission-content h2 {
+  font-family: "Fraunces", "Georgia", serif;
+  font-size: clamp(2rem, 2.5vw + 0.8rem, 3rem);
+  margin: 0 0 1rem 0;
+  color: #d4af37;
+}
+
+.mission-content p {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #e0e0e0;
+  max-width: 800px;
 }
 
 .about-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
 }
 
 .about-card {
   background: #ffffff;
-  padding: 1.8rem;
+  padding: 2rem;
   border-radius: 1.5rem;
-  border: 1px solid #efe6db;
-  box-shadow: 0 18px 32px rgba(47, 43, 38, 0.08);
+  border: 2px solid #d4af37;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.about-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 40px rgba(212, 175, 55, 0.2);
+  border-color: #000000;
+}
+
+.card-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  display: block;
 }
 
 .about-card h3 {
-  margin-top: 0;
+  margin: 0 0 1rem 0;
+  font-size: 1.3rem;
+  color: #000000;
+  font-weight: 600;
+}
+
+.about-card p {
+  margin: 0;
+  line-height: 1.6;
+  color: #505050;
+  font-size: 0.95rem;
 }
 
 .about-highlight {
   display: grid;
   grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
-  gap: 2.5rem;
+  gap: 3rem;
   align-items: center;
-  background: #fdfbf8;
-  padding: 2.5rem;
+  background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%);
+  padding: 3.5rem;
   border-radius: 2rem;
-  border: 1px solid #efe6db;
+  border: 2px solid #d4af37;
+  color: #ffffff;
 }
 
-.about-highlight h2 {
+.highlight-text h2 {
   font-family: "Fraunces", "Georgia", serif;
-  font-size: clamp(1.8rem, 2vw + 0.9rem, 2.6rem);
+  font-size: clamp(1.8rem, 2.2vw + 0.9rem, 2.8rem);
+  margin: 0 0 1rem 0;
+  color: #d4af37;
+}
+
+.highlight-text p {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #e0e0e0;
 }
 
 .about-stats {
   display: grid;
-  gap: 1rem;
+  gap: 1.5rem;
 }
 
-.about-stats div {
-  background: #ffffff;
-  padding: 1.2rem 1.4rem;
+.stat-card {
+  background: rgba(212, 175, 55, 0.1);
+  border: 1px solid #d4af37;
+  padding: 1.8rem;
   border-radius: 1.2rem;
-  border: 1px solid #efe6db;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.stat-card:hover {
+  background: rgba(212, 175, 55, 0.2);
+  transform: scale(1.05);
+}
+
+.stat-card h3 {
+  font-family: "Fraunces", "Georgia", serif;
+  font-size: 2.5rem;
+  margin: 0 0 0.5rem 0;
+  color: #d4af37;
+  font-weight: 700;
+}
+
+.stat-card p {
+  margin: 0;
+  color: #d0d0d0;
+  font-size: 0.95rem;
+}
+
+.about-values {
+  max-width: 1200px;
+}
+
+.about-values h2 {
+  font-family: "Fraunces", "Georgia", serif;
+  font-size: clamp(2rem, 2.5vw + 0.8rem, 3rem);
+  margin: 0 0 2.5rem 0;
+  color: #000000;
+  text-align: center;
+}
+
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.value-item {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 1.5rem;
+  border-left: 4px solid #d4af37;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.value-item h4 {
+  font-size: 1.3rem;
+  margin: 0 0 0.8rem 0;
+  color: #000000;
+  font-weight: 600;
+}
+
+.value-item p {
+  margin: 0;
+  color: #505050;
+  line-height: 1.6;
+  font-size: 0.95rem;
 }
 
 @media (max-width: 900px) {
   .about-highlight {
     grid-template-columns: 1fr;
+  }
+  
+  .about {
+    padding: 2.5rem 4vw 4rem;
+  }
+  
+  .about-mission,
+  .about-highlight {
+    padding: 2.5rem;
   }
 }

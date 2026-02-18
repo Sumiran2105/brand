@@ -5,61 +5,97 @@ const About = () => {
   return (
     <main className="about">
       <section className="about-hero">
-        <p className="eyebrow">Our story</p>
-        <h1>Designing clothing that feels personal, precise, and lived in.</h1>
+        <p className="eyebrow">About Us</p>
+        <h1 >Crafting Excellence in Every Stitch</h1>
         <p className="lead">
-          Thread & Needle is a small-batch studio founded on the belief that
-          modern wardrobes deserve both restraint and romance. We blend old-world
-          tailoring with contemporary ease to create pieces that hold their
-          shape and soften with time.
+          Our brand stands at the intersection of timeless elegance and modern sophistication. 
+          Since our founding, we've been dedicated to creating premium products that celebrate 
+          individuality, quality, and enduring style. Every piece we create tells a story of 
+          passion, precision, and purpose—designed for those who appreciate the finer things.
         </p>
+      </section>
+
+      <section className="about-mission">
+        <div className="mission-content">
+          <h2>Our Mission</h2>
+          <p>
+            We believe that true luxury lies in the details. Our mission is to design and 
+            deliver exceptional products that exceed expectations, combining traditional 
+            craftsmanship with contemporary innovation. We're committed to sustainability, 
+            ethical practices, and creating pieces that stand the test of time.
+          </p>
+        </div>
       </section>
 
       <section className="about-grid">
         <div className="about-card">
-          <h3>Atelier-first</h3>
+          <div className="card-icon">✨</div>
+          <h3>Superior Craftsmanship</h3>
           <p>
-            Every garment begins with a drape test in our coastal studio. We
-            prototype, wear, and refine before anything reaches production.
+            Each product undergoes meticulous quality control, ensuring perfection in every detail. 
+            Our artisans bring decades of experience to every creation.
           </p>
         </div>
         <div className="about-card">
-          <h3>Materials with memory</h3>
+          <div className="card-icon">🌿</div>
+          <h3>Sustainable Materials</h3>
           <p>
-            We partner with mills that prioritize natural fibers, traceable
-            dyes, and enduring textures that age beautifully.
+            We partner with responsible suppliers who share our commitment to environmental 
+            stewardship and ethical manufacturing practices.
           </p>
         </div>
         <div className="about-card">
-          <h3>Built to last</h3>
+          <div className="card-icon">♦</div>
+          <h3>Timeless Design</h3>
           <p>
-            Our repair program and fit updates keep pieces in circulation longer
-            and reduce wardrobe waste.
+            Our designs transcend trends, creating pieces that remain relevant and beautiful 
+            across generations.
           </p>
         </div>
       </section>
 
       <section className="about-highlight">
-        <div>
-          <h2>Meet the atelier team.</h2>
+        <div className="highlight-text">
+          <h2>By The Numbers</h2>
           <p>
-            A collective of pattern makers, fabric scouts, and stylists working
-            across three workshops. We celebrate slow fashion and personal
-            connection.
+            Our growth is a testament to our commitment to excellence. With a loyal community 
+            of discerning customers worldwide, we continue to set new standards in our industry.
           </p>
         </div>
         <div className="about-stats">
-          <div>
-            <h3>18</h3>
-            <p>Artisans on staff</p>
+          <div className="stat-card">
+            <h3>25+</h3>
+            <p>Years of Excellence</p>
           </div>
-          <div>
-            <h3>2015</h3>
-            <p>Year founded</p>
+          <div className="stat-card">
+            <h3>50K+</h3>
+            <p>Happy Customers</p>
           </div>
-          <div>
-            <h3>92%</h3>
-            <p>Materials traceable</p>
+          <div className="stat-card">
+            <h3>100%</h3>
+            <p>Quality Assured</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="about-values">
+        <h2>Our Values</h2>
+        <div className="values-grid">
+          <div className="value-item">
+            <h4>Integrity</h4>
+            <p>We stand behind every product with complete transparency and honesty.</p>
+          </div>
+          <div className="value-item">
+            <h4>Excellence</h4>
+            <p>We pursue perfection in every aspect of our craft and customer service.</p>
+          </div>
+          <div className="value-item">
+            <h4>Innovation</h4>
+            <p>We constantly evolve, blending tradition with forward-thinking design.</p>
+          </div>
+          <div className="value-item">
+            <h4>Community</h4>
+            <p>We celebrate our customers and artisans as vital parts of our journey.</p>
           </div>
         </div>
       </section>
