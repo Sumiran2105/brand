@@ -7,6 +7,7 @@ import Contact from "./contact/Contact";
 import SignIn from "./signin/SignIn";
 import SignUp from "./signup/SignUp";
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 const App = () => {
   return (
@@ -20,6 +21,8 @@ const App = () => {
         <Route path="/signin" element={<SignIn />} />
         <Route path="/signup" element={<SignUp />} />
       </Routes>
+
+      <Footer />
     </BrowserRouter>
   );
 };

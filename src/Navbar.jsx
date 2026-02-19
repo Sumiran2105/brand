@@ -10,7 +10,7 @@ const Navbar = () => {
         <img
           src="/image.png"
           alt="Logo"
-          className="navbar-logo-img"
+          className="navbar-logo-img "
         />
 
         <NavLink to="/" className="navbar-logo">
@@ -19,6 +19,9 @@ const Navbar = () => {
       </div>
 
       <div className="navbar-links">
+        <NavLink to="/" className={({ isActive }) => (isActive ? "active" : "")}>
+          Home
+        </NavLink>
         <NavLink to="/about" className={({ isActive }) => (isActive ? "active" : "")}>
           About
         </NavLink>
