@@ -4,7 +4,7 @@ import "./Navbar.css";
 
 const Navbar = () => {
   return (
-    <nav className="navbar">
+    <nav className="navbar position-sticky top-0 z-50">
       <div className="navbar-left">
         {/* Logo */}
         <img

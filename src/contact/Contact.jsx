@@ -22,7 +22,7 @@ const Contact = () => {
   return (
     <main className="contact">
       <section className="contact-hero">
-        <p className="eyebrow">Get in Touch</p>
+        <p className="eyebrow">Get in Touch Us</p>
         <h1>We'd love to hear from you.</h1>
         <p className="lead">
           Have questions about our products or services? Our dedicated team is here to help.
@@ -84,9 +84,9 @@ const Contact = () => {
         <div className="contact-info">
           <div className="info-block">
             <h3>📍 Address</h3>
-            <p>123 Premium Street</p>
-            <p>New York, NY 10001</p>
-            <p>United States</p>
+            <p>Ayyapa Nagar 4th Main 2nd Street</p>
+            <p>Devasandra, Karnataka 560068</p>
+            <p>India</p>
           </div>
           <div className="info-block">
             <h3>⏰ Business Hours</h3>
@@ -97,14 +97,14 @@ const Contact = () => {
           <div className="info-block">
             <h3>📞 Contact Info</h3>
             <p>Email: hello@brand.com</p>
-            <p>Phone: +1 (555) 123-4567</p>
+            <p>Phone: +91 (555) 123-4567</p>
             <p>Support Chat: Available 24/7</p>
           </div>
           <div className="info-block">
             <h3>🌐 Connect With Us</h3>
-            <p>Instagram: @ourbrand</p>
+            <p>Instagram: @ashok_k_r_i_s_h</p>
             <p>Facebook: Our Brand</p>
-            <p>LinkedIn: Our Brand Co.</p>
+            <p>Twitter: @ourbrand</p>
           </div>
         </div>
       </section>

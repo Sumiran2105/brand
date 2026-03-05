@@ -67,6 +67,7 @@ const SignIn = () => {
             <li>✓ Free shipping on orders</li>
             <li>✓ Priority customer support</li>
             <li>✓ Personalized recommendations</li>
+            <li>✓ Easy order tracking</li>
           </ul>
         </div>
       </aside>

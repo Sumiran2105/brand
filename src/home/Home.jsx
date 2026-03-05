@@ -2,14 +2,14 @@ import React, { useState, useMemo } from "react";
 import "./Home.css";
 
 const products = [
-  { name: "Archline High-Waist Jean", color: "Stone Blue", price: 129, tone: "cool", category: "High waist", image: "https://images.unsplash.com/photo-1542272604-787c62d465d1?w=500&h=600&fit=crop" },
-  { name: "Studio Straight Leg Jean", color: "Indigo Wash", price: 118, tone: "deep", category: "Straight-leg", image: "https://images.unsplash.com/photo-1541099716352-8e5fb908301b?w=500&h=600&fit=crop" },
-  { name: "Vintage Wide-Leg Jean", color: "Soft Faded", price: 139, tone: "light", category: "Wide-leg", image: "https://images.unsplash.com/photo-1606986628025-35d57e735ae0?w=500&h=600&fit=crop" },
-  { name: "Tailored Flare Jean", color: "Midnight Ink", price: 148, tone: "dark", category: "Flared", image: "https://images.unsplash.com/photo-1552820728-8ac41f1ce891?w=500&h=600&fit=crop" },
-  { name: "Utility Mid-Rise Jean", color: "Clay Wash", price: 119, tone: "warm", category: "Mid waist", image: "https://images.unsplash.com/photo-1595777707802-cb2c2a7b8da0?w=500&h=600&fit=crop" },
-  { name: "Coastal Slim Jean", color: "Salted Grey", price: 112, tone: "grey", category: "Skinny", image: "https://images.unsplash.com/photo-1542272604-787c62d465d1?w=500&h=600&fit=crop" },
-  { name: "Harbor Barrel Jean", color: "Ocean Blue", price: 134, tone: "blue", category: "Wide-leg", image: "https://images.unsplash.com/photo-1475217869307-2c5889cf516e?w=500&h=600&fit=crop" },
-  { name: "Low-Rise Taper Jean", color: "Rinse Black", price: 124, tone: "black", category: "Straight-leg", image: "https://images.unsplash.com/photo-1541099716352-8e5fb908301b?w=500&h=600&fit=crop" },
+  { name: "Archline High-Waist Jean", color: "Stone Blue", price: 149, tone: "cool", category: "High waist", image: "https://cdn.mos.cms.futurecdn.net/whowhatwear/posts/310254/high-waisted-jeans-trend-310254-1700235876624-main-768-80.jpg" },
+  { name: "Studio Straight Leg Jean", color: "Indigo Wash", price: 149, tone: "deep", category: "Straight-leg", image: "https://media-ea.landmarkshops.in/cdn-cgi/image/h=831,w=615,q=85,fit=cover/max-new/1000016309609-Black-BLACK-1000016309609_01-2100.jpg" },
+  { name: "Vintage Wide-Leg Jean", color: "Soft Faded", price: 149, tone: "light", category: "Wide-leg", image: "https://tse2.mm.bing.net/th/id/OIP.C0Dm0mj-oUy29GlZxOw6_gHaJa?rs=1&pid=ImgDetMain&o=7&rm=3" },
+  { name: "Tailored Flare Jean", color: "Midnight Ink", price: 149, tone: "dark", category: "Flared", image: "https://cdn.cliqueinc.com/posts/285013/flare-jean-outfits-285013-1638306838029-main.700x0c.jpg" },
+  { name: "Utility Mid-Rise Jean", color: "Clay Wash", price: 149, tone: "warm", category: "Mid waist", image: "https://image.hm.com/assets/hm/3d/47/3d4700e96e0a6c7f0c67600218c6e08fe431fbbe.jpg?imwidth=2160" },
+  { name: "Coastal Slim Jean", color: "Salted Grey", price: 149, tone: "grey", category: "Skinny", image: "https://justjeans.jgl.com.au/JJ/aurora/images/products/tiny/128478_denim_t.jpg" },
+  { name: "Harbor Barrel Jean", color: "Ocean Blue", price: 149, tone: "blue", category: "Wide-leg", image: "https://image.hm.com/assets/hm/56/97/5697d1b97b1230ce0fc186a546bb5fce05d3c1dc.jpg?imwidth=2160" },
+  { name: "Low-Rise Taper Jean", color: "Rinse Black", price: 149, tone: "black", category: "Straight-leg", image: "https://tse4.mm.bing.net/th/id/OIP._ex5DHM-1cFW-cipjJym-wHaJQ?rs=1&pid=ImgDetMain&o=7&rm=3" },
 ];
 
 const categories = ["View all", "High waist", "Mid waist", "Wide-leg", "Straight-leg", "Flared", "Skinny"];
@@ -53,7 +53,7 @@ const Home = () => {
       {/* Hero Section */}
       <section className="hero-banner">
         <div className="hero-content">
-          <h1>Premium Denim Collection</h1>
+          <h1 >Premium Denim Collection</h1>
           <p>Discover our curated selection of premium jeans crafted for style and comfort</p>
           <button className="hero-cta">Explore Now</button>
         </div>

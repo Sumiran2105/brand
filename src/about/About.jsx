@@ -11,13 +11,13 @@ const About = () => {
           Our brand stands at the intersection of timeless elegance and modern sophistication. 
           Since our founding, we've been dedicated to creating premium products that celebrate 
           individuality, quality, and enduring style. Every piece we create tells a story of 
-          passion, precision, and purpose—designed for those who appreciate the finer things.
+          passion,precision, and purpose—designed for those who appreciate the finer things.
         </p>
       </section>
 
       <section className="about-mission">
         <div className="mission-content">
-          <h2>Our Mission</h2>
+          <h2>Our Mission </h2>
           <p>
             We believe that true luxury lies in the details. Our mission is to design and 
             deliver exceptional products that exceed expectations, combining traditional 
@@ -64,11 +64,11 @@ const About = () => {
         </div>
         <div className="about-stats">
           <div className="stat-card">
-            <h3>25+</h3>
+            <h3>15+</h3>
             <p>Years of Excellence</p>
           </div>
           <div className="stat-card">
-            <h3>50K+</h3>
+            <h3>40K+</h3>
             <p>Happy Customers</p>
           </div>
           <div className="stat-card">
